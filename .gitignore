@@ -1,0 +1,55 @@
+# Next
+.next/
+out/
+build/
+dist/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp/
+.pnp.js
+
+# Env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Vercel
+.vercel
+
+# Typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+
+# Keep demo images but ignore heavy originals
+/public/images/raw/
+*.psd
+*.ai
+
+# Optional - if you want to ignore 4K originals and keep compressed
+# /public/images/products/originals/
+
+# Optional local data overrides
+/data/local/

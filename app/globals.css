@@ -1,0 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --bg: #FDFBF7; }
+body { background: var(--bg); color: #111827; font-family: Inter, system-ui, sans-serif; }
+h1,h2 { letter-spacing: -0.02em; }
+::selection { background: #0B2A4A; color: white; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
